@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>KAZ Music</title>
+  <link rel="stylesheet" href="assets/styles/music.css">
+  <style>
+    .content{
+      position: relative;
+      color: ghostwhite;
+      overflow: hidden;
+      isolation: isolate; 
+      }
+    .content::before{
+      content: "";
+      position: absolute;
+      inset: 0;     
+      background-color: black;
+      filter: brightness(0.5);
+      filter: grayscale();
+      z-index: -1;
+      }
+  </style>
+</head>
+<body>
+  <header>
+    <a href="index.html"><img src="assets/images/00 Logos/KAZ - Logo.png" alt="KAZ Logo" class="kazheaderlogo"></a>
+  </header>
+  <nav class="navbar">
+    <ul>
+      <li><a href="index.html">HOME</a></li>
+      <li><a href="music.html">MUSIC</a></li>
+      <li><a href="socials.html">SOCIALS</a></li>
+    </ul>
+  </nav>
+  <main class="content">
+    <div class="fade-in">
+    <div class="content-padding">
+    <section>
+      <a href="saloobinEP.html" class="album-links">
+        <img src="assets/images/03 Album Covers/Saloobin EP - Cover.jpg" alt="Album Cover" class="album-cover">
+        <p class="titles">SALOOBIN EP</p>
+        <p class="dates">Release Date: May 20,2022</p>
+      </a>
+      <div class="spotify-ep-link">
+        <a href="https://open.spotify.com/album/10lFF4DApNVzCbgQoO67A4?si=YeVZxJo8SjqupxtmeRSZJQ" target="_blank" rel="noopener noreferrer">
+          <p>Listen on Spotify:</p>
+          <img src="assets/icons/Spotify.png" alt="Spotify Icon" class="spotify-icon">
+        </a>
+      </div>
+    </section>
+    <article>
+      <a href="makasalananEP.html" class="album-links">
+        <img src="assets/images/03 Album Covers/Makasalanan EP - Cover.png" alt="Album Cover" class="album-cover">
+        <p class="titles">MAKASALANAN EP</p>
+        <p class="dates">Release Date: August 12,2023</p>
+      </a>
+      <div class="spotify-ep-link">
+          <a href="https://open.spotify.com/album/6OhZs5AHyqEn4TvycZMX6W?si=vpw7urlCSlGgHpS8iFCwfA" target="_blank" rel="noopener noreferrer"> 
+          <p>Listen on Spotify:</p><img src="assets/icons/Spotify.png" class="spotify-icon"></a>
+      </div>
+    </article>
+    
+    </div>
+    </div>
+  </main>
+  <footer>
+    <h2>©2026 KAZ. All Rights Reserved</h2>
+  </footer>
+
+</body>
+</html>

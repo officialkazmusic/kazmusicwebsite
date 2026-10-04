@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>KAZ Home</title>
+  <link rel="stylesheet" href="assets/styles/styles.css">
+  <style>
+    .content {
+      position: relative;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      color: ghostwhite;
+      overflow: hidden;
+      isolation: isolate; 
+      }
+    .content::before{
+      content: "";
+      position: absolute;
+      inset: 0;     
+      background-image: url("assets/images/01 Website Backgrounds/bgA.jpg");
+      background-attachment: fixed;
+      background-position: center;
+      background-repeat: no-repeat; 
+      background-size: cover; 
+      filter: brightness(0.6);
+      z-index: -1;
+      }
+  </style>
+</head>
+<body>
+  <header>
+    <a href="index.html"><img src="assets/images/00 Logos/KAZ - Logo.png" alt="KAZ Logo" class="kazheaderlogo"></a>
+  </header>
+  <nav class="navbar">
+    <ul>
+      <li><a href="index.html">HOME</a></li>
+      <li><a href="music.html">MUSIC</a></li>
+      <li><a href="socials.html">SOCIALS</a></li>
+    </ul>
+  </nav>
+  <main class="content">
+    <div class="fade-in">
+    <section class="section-text">
+      <h2>ABOUT KAZ</h2>
+      <p>Founded in 2020 and hailing from Baguio City, KAZ is an OPM hip-hop duo composed of Zy and unknown¿. Having sharpened their skills and shared musical influences together back in high school, the duo operates at the intersection of traditional boom-bap grit and refined modern production, treating hip-hop as a deliberate medium for structural commentary. Their sound bridges the raw, unpolished kinetic energy of early hip-hop with contemporary sonic sensibilities, resulting in an approach that feels grounded yet forward-facing.
+      <br>
+      <br>
+      At the core of KAZ's identity is an uncompromising commitment to sharp, concept-driven penmanship. Abandoning surface-level tropes and empty posturing, their discography centers on honest, blunt, and thought-provoking themes designed to challenge listener perspective. Every bar serves a distinct conceptual purpose—delivering unfiltered commentary through structured, high-caliber lyricism that demands active engagement rather than passive consumption.
+      </p>
+    
+      <img src="assets/images/00 Logos/Zy - Logo.png" alt="Zy Logo" class="artistlogoA">
+      <p>Zy brings raw, kinetic energy and a sharp, emphatic delivery to KAZ. Balancing a confident, assertive presence with a grounded, straightforward approach to writing, his strength lies in converting simple, unfiltered truths into impactful, resonant lines. Rather than overcomplicating his penmanship with dense technicality, Zy utilizes a unique, accessible approach to metaphors that ensures every bar lands cleanly, serving as the group's direct, front-line force.
+      <br>
+      </p>
+      <img src="assets/images/00 Logos/unknown - Logo.png" alt="unknown¿ Logo" class="artistlogoA">
+      <p>Functioning as the sonic architect of KAZ, unknown¿ shapes the group's musical palette while bringing a laid-back, calculated presence to the mic. As the primary beatmaker and producer, he crafts the atmospheric blend of gritty, old-school boom-bap and modern production that defines their sound. Lyrically, unknown¿ operates with a nuanced touch—layering his messages deep within metaphors and subtle subtext, providing a refined, contemplative counterweight to the duo's vocal dynamic.
+      <br>
+      </p>
+      <p>
+      <br>
+      Together, Zy's explosive delivery and unknown¿'s intricate production create a balanced dynamic that defines KAZ. Rooted in their shared Baguio roots and high school upbringing, the OPM duo combines blunt realism with layered conceptual depth, bridging classic hip-hop roots and contemporary taste to deliver thought-provoking, uncompromised music.
+      </p>
+    </section>
+    </div>
+  </main>
+  <footer>
+    <h2>©2026 KAZ. All Rights Reserved</h2>
+  </footer>
+</body>
+</html>

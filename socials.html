@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>KAZ Socials</title>
+  <link rel="stylesheet" href="assets/styles/socials.css">
+  <style>
+    .content {
+      position: relative;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      color: ghostwhite;
+      overflow: hidden;
+      isolation: isolate; 
+      }
+    .content::before{
+      content: "";
+      position: absolute;
+      inset: 0;     
+      background-image: url("assets/images/01 Website Backgrounds/bgB.jpg");
+      background-attachment: fixed;
+      background-position: center;
+      background-repeat: no-repeat; 
+      background-size: cover; 
+      filter: brightness(0.6);
+      z-index: -1;
+      }
+  </style>
+</head>
+<body>
+  <header>
+    <a href="index.html"><img src="assets/images/00 Logos/KAZ - Logo.png" alt="KAZ Logo" class="kazheaderlogo"></a>
+  </header>
+  <nav class="navbar">
+    <ul>
+      <li><a href="index.html">HOME</a></li>
+      <li><a href="music.html">MUSIC</a></li>
+      <li><a href="socials.html">SOCIALS</a></li>
+    </ul>
+  </nav>
+  <main class="content">
+    <div class="fade-in">
+      <p class="follow-text">Follow KAZ for official music releases, and updates:</p> 
+      <section class="section-nav">
+        <ul>
+          <li>
+            <a href="https://open.spotify.com/artist/6TaaDmhuJZai8COib6db6v?si=b9pZf2OlSs-awSb8NFPWbg" target="_blank" rel="noopener noreferrer">
+              <img src="assets/icons/Spotify.png" alt="Spotify Icon" class="social-icons">
+            </a>
+          </li>
+          <li>
+            <a href="https://www.youtube.com/@KAZMusicOfficial" target="_blank" rel="noopener noreferrer">
+              <img src="assets/icons/youtube.png" alt="YouTube Icon" class="social-icons">
+            </a>
+          </li>
+          <li>
+            <a href="https://www.instagram.com/kaz_officialmusic/" target="_blank" rel="noopener noreferrer">
+              <img src="assets/icons/ig.png" alt="Ig Icon" class="social-icons">
+            </a>
+          </li>
+          <li><a href="https://www.facebook.com/KAZMusicOfficial" target="_blank" rel="noopener noreferrer">
+                <img src="assets/icons/fb.png" alt="Fb Icon" class="social-icons">
+              </a>
+          </li>
+        </ul>
+      </section>
+    </div>
+  </main>
+  <footer>
+    <h2>©2026 KAZ. All Rights Reserved</h2>
+  </footer>
+</body>
+</html>
